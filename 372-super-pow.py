@@ -8,7 +8,7 @@
 
 # 输入: a = 2, b = [1,0]
 # 输出: 1024
-
+# 解题 https://mp.weixin.qq.com/s/GjS9ORJv3KtXEOU5WsyqYQ
 class Solution(object):
 
     def mypow(self, a, k):
@@ -31,4 +31,3 @@ class Solution(object):
         for i in b:
             res = self.mypow(res,10) * self.mypow(a, i)
         return res % base
-        
