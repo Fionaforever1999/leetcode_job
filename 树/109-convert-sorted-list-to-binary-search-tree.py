@@ -12,7 +12,7 @@
 #      / \
 #    -3   9
 #    /   /
- -10  5
+#  -10  5
 
 # Definition for singly-linked list.
 # class ListNode:
