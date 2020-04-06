@@ -26,6 +26,7 @@
 # #         self.val = x
 # #         self.left = None
 # #         self.right = None
+# 解法一 递归
 
 class Solution:
     def generateTrees(self, n: int) -> List[TreeNode]:
@@ -47,4 +48,6 @@ class Solution:
                         all_tree.append(current_tree)
             return all_tree
         return generateTreesBy(1,n) if n else []
-            
+
+
+#解法二 回溯
