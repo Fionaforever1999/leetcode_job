@@ -1,7 +1,5 @@
 import java.util.Map;
 import java.util.HashMap;
-
-
 public class FruitIntoBasket {
   public static int totalFruit(int[] tree) {
     if(tree.length==0)return 0;
