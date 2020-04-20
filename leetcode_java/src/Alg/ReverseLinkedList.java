@@ -1,3 +1,5 @@
+package Alg;
+
 public class ReverseLinkedList {
   public ListNode reverseList(ListNode head) {
       // 头结点一定指向Null
@@ -11,7 +13,7 @@ public class ReverseLinkedList {
     }
     return prev;
   }
-  public static void main(String args){
+  public static void main(String[] args){
     ReverseLinkedList sol = new ReverseLinkedList();
     ListNode l1 = new ListNode(1);
     l1.next = new ListNode(2);
