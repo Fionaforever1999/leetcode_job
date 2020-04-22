@@ -14,7 +14,7 @@ class TopKFrequentElements {
       map.put(n, map.getOrDefault(n, 0) + 1);
     }
     List<Integer>[] tmp = new List[nums.length + 1];
-    for(int key: map.keySet()){// 获取每一个value 的 key的值
+    for(int key: map.keySet()){// 获取每一个value 的 key的值 key是nums中的数字 value是出现频率
       int i = map.get(key);// 通过出现的key也就是数字的值到map中获得出现频率
       if(tmp[i]==null){// 如果在这个频率下的 桶中没有则该桶中加入列表存nums中数字的值
         tmp[i] = new ArrayList();
