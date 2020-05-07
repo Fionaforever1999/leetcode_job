@@ -26,6 +26,20 @@ public class reconstructItinery {
       ans.add(0, src);
     }
 
+    private void visted2(Map<String,PriorityQueue<String>> grapth, List<String> ans, String src){
+      //递归改为迭代
+      Stack<String> stack = new Stack<>();
+      stack.push(src); // src 存入栈中
+      while (!stack.isEmpty()){
+        PriorityQueue<String> nbr;
+        while ( (nbr = grapth.get(stack.peek()))!=null && nbr.size()!=0){
+          stack.push(nbr.poll());
+        }
+        ans.add(0, stack.pop()); //栈顶元素出栈 这样stack才能减少
+      }
+    }
+
+
   public static void main(String[] args) {
     return ;
   }
