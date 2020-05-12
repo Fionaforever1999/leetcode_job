@@ -1,4 +1,4 @@
-package 分治;
+package DivideAndConqure;
 import java.util.List;
 import java.util.ArrayList;
 public class expressAddOperator {

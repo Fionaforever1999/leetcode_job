@@ -1,4 +1,4 @@
-package 分治;
+package DivideAndConqure;
 import java.util.*;
 public class KClosestPointToOrigin {
     public int[][] kClosest(int[][] points, int K) {
