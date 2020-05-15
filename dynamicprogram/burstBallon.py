@@ -8,4 +8,4 @@ class Solution:
         def dp(left, right):
             if left + 1 == right:return 0
             return max(nums[i]*nums[left]*nums[right] + dp(left, i) + dp(i, right) for i in range(left+1, right))
-        return dp(0,len(nums)-1) 
+        return dp(0,len(nums)-1)    
