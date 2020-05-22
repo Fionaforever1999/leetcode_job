@@ -30,7 +30,7 @@ public class eventualSafrNode {
         }
       }
       return status[i]="safe";
-
     }
+
   }
 
