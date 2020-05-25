@@ -11,7 +11,6 @@ public class InsertSortList147 {
       val = x;
     }
   }
-
   public ListNode insertionSortList(ListNode head) {
     if (head == null) return null;
     ListNode dummey = new ListNode(0); // dummy as the start for tempH
