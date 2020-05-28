@@ -1,4 +1,4 @@
-package Graph;
+package GraphDSU;
 import java.util.*;
 public class reconstructItinery {
     public List<String> findItinerary(List<List<String>> tickets) {

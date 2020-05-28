@@ -1,4 +1,4 @@
-package Graph;
+package GraphDSU;
 //https://leetcode-cn.com/problems/is-graph-bipartite/solution/pan-duan-er-fen-tu-by-leetcode/
 public class IsGraphBipartite {
   public boolean isBipartite(int[][] graph) {

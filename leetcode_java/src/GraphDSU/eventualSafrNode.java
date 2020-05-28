@@ -1,4 +1,4 @@
-package Graph;
+package GraphDSU;
 
 import java.util.List;
 import java.util.ArrayList;
